@@ -1,0 +1,12 @@
+{
+  "name": "lib",
+  "version": "1.0.0",
+  "main": "./build/index",
+  "module": "./build/index.esm.js",
+  "exports": {
+    ".": {
+      "import": "./build/index.esm.js",
+      "require": "./build/index.js"
+    }
+  }
+}
